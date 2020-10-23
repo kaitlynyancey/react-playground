@@ -6,4 +6,4 @@ import HelloWorld from './state-drills/HelloWorld.js'
 import Bomb from './state-drills/Bomb'
 import RouletteGun from './state-drills/RouletteGun'
 
-ReactDOM.render(<RouletteGun bulletInChamber={3}/>, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
